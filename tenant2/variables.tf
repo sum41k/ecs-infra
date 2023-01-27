@@ -7,7 +7,7 @@ variable "name" {
 }
 
 variable "environment" {
-  default = "test"
+  default = "dev"
 }
 
 variable "enable_nat_gateway" {
