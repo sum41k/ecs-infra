@@ -18,7 +18,7 @@ variable "enable_nat_gateway" {
 
 variable "platform_cidr" {
   description = "The CIDR block for the VPC to create for deployment, e.g 10.0.0.0/16"
-  default     = "10.200.0.0/16" #10.200.0.0/16
+  default     = "10.200.0.0/20" #10.200.0.0/16
 }
 
 
